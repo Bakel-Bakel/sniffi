@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/null/ros2_ws/build/motor_driver",
+        "/home/lordcruise/Documents/upwork/sniffi/data/Sniffi-20250916T205250Z-1-001/Sniffi/ros2_ws/install/motor_driver/lib/python3.10/site-packages",
+        "/home/null/ros2_ws/build/lidar_gui",
+        "/home/lordcruise/Documents/upwork/sniffi/data/Sniffi-20250916T205250Z-1-001/Sniffi/ros2_ws/install/lidar_gui/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/null/ros2_ws/build/motor_driver",
+        "/home/lordcruise/Documents/upwork/sniffi/data/Sniffi-20250916T205250Z-1-001/Sniffi/ros2_ws/install/motor_driver/lib/python3.10/site-packages",
+        "/home/null/ros2_ws/build/lidar_gui",
+        "/home/lordcruise/Documents/upwork/sniffi/data/Sniffi-20250916T205250Z-1-001/Sniffi/ros2_ws/install/lidar_gui/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
