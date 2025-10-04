@@ -1,0 +1,15 @@
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/ament_index/resource_index/package_run_dependencies/lidar_gui
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/ament_index/resource_index/parent_prefix_path/lidar_gui
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/environment/ament_prefix_path.sh
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/environment/ament_prefix_path.dsv
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/environment/path.sh
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/environment/path.dsv
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/local_setup.bash
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/local_setup.sh
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/local_setup.zsh
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/local_setup.dsv
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/package.dsv
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/ament_index/resource_index/packages/lidar_gui
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/cmake/lidar_guiConfig.cmake
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/cmake/lidar_guiConfig-version.cmake
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/package.xml

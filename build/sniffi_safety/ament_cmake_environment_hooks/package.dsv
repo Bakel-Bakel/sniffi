@@ -1,0 +1,4 @@
+source;share/sniffi_safety/local_setup.bash
+source;share/sniffi_safety/local_setup.dsv
+source;share/sniffi_safety/local_setup.sh
+source;share/sniffi_safety/local_setup.zsh

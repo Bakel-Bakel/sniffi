@@ -1,0 +1,46 @@
+[0.013s] Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup
+[0.094s] -- The C compiler identification is GNU 11.4.0
+[0.154s] -- The CXX compiler identification is GNU 11.4.0
+[0.166s] -- Detecting C compiler ABI info
+[0.212s] -- Detecting C compiler ABI info - done
+[0.216s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.216s] -- Detecting C compile features
+[0.216s] -- Detecting C compile features - done
+[0.218s] -- Detecting CXX compiler ABI info
+[0.266s] -- Detecting CXX compiler ABI info - done
+[0.271s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.271s] -- Detecting CXX compile features
+[0.271s] -- Detecting CXX compile features - done
+[0.277s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.510s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.555s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.580s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.631s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.632s] -- Added test 'lint_cmake' to check CMake code style
+[0.632s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.633s] -- Added test 'xmllint' to check XML markup files
+[0.635s] -- Configuring done
+[0.638s] -- Generating done
+[0.638s] -- Build files have been written to: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup
+[0.648s] Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup
+[0.649s] Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup -- -j24 -l24
+[0.672s] Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup -- -j24 -l24
+[0.678s] Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup
+[0.686s] -- Install configuration: ""
+[0.686s] -- Execute custom install script
+[0.686s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/ament_index/resource_index/package_run_dependencies/sniffi_bringup
+[0.689s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/ament_index/resource_index/parent_prefix_path/sniffi_bringup
+[0.693s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/environment/ament_prefix_path.sh
+[0.700s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/environment/ament_prefix_path.dsv
+[0.706s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/environment/path.sh
+[0.713s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/environment/path.dsv
+[0.718s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/local_setup.bash
+[0.723s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/local_setup.sh
+[0.731s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/local_setup.zsh
+[0.737s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/local_setup.dsv
+[0.743s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/package.dsv
+[0.749s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/ament_index/resource_index/packages/sniffi_bringup
+[0.757s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/cmake/sniffi_bringupConfig.cmake
+[0.762s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/cmake/sniffi_bringupConfig-version.cmake
+[0.768s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/package.xml
+[0.783s] Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup

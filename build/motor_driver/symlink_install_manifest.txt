@@ -1,0 +1,15 @@
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/ament_index/resource_index/package_run_dependencies/motor_driver
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/ament_index/resource_index/parent_prefix_path/motor_driver
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/environment/ament_prefix_path.sh
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/environment/ament_prefix_path.dsv
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/environment/path.sh
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/environment/path.dsv
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/local_setup.bash
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/local_setup.sh
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/local_setup.zsh
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/local_setup.dsv
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/package.dsv
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/ament_index/resource_index/packages/motor_driver
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/cmake/motor_driverConfig.cmake
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/cmake/motor_driverConfig-version.cmake
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/package.xml

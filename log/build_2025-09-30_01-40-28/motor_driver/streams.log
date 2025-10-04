@@ -1,0 +1,60 @@
+[0.013s] Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/motor_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver
+[0.096s] -- The C compiler identification is GNU 11.4.0
+[0.155s] -- The CXX compiler identification is GNU 11.4.0
+[0.167s] -- Detecting C compiler ABI info
+[0.212s] -- Detecting C compiler ABI info - done
+[0.216s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.217s] -- Detecting C compile features
+[0.217s] -- Detecting C compile features - done
+[0.220s] -- Detecting CXX compiler ABI info
+[0.269s] -- Detecting CXX compiler ABI info - done
+[0.273s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.273s] -- Detecting CXX compile features
+[0.273s] -- Detecting CXX compile features - done
+[0.279s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.510s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.556s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.580s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.611s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.614s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.621s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.633s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.687s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.687s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.770s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.791s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.818s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.827s] -- Looking for pthread.h
+[0.893s] -- Looking for pthread.h - found
+[0.893s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.957s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.959s] -- Found Threads: TRUE  
+[0.999s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.046s] -- Added test 'lint_cmake' to check CMake code style
+[1.046s] -- Added test 'xmllint' to check XML markup files
+[1.047s] -- Configuring done
+[1.048s] -- Generating done
+[1.049s] -- Build files have been written to: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver
+[1.056s] Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/motor_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver
+[1.057s] Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver -- -j24 -l24
+[1.083s] Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver -- -j24 -l24
+[1.085s] Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver
+[1.089s] -- Install configuration: ""
+[1.089s] -- Execute custom install script
+[1.089s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/ament_index/resource_index/package_run_dependencies/motor_driver
+[1.095s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/ament_index/resource_index/parent_prefix_path/motor_driver
+[1.100s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/environment/ament_prefix_path.sh
+[1.106s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/environment/ament_prefix_path.dsv
+[1.111s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/environment/path.sh
+[1.117s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/environment/path.dsv
+[1.121s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/local_setup.bash
+[1.126s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/local_setup.sh
+[1.131s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/local_setup.zsh
+[1.137s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/local_setup.dsv
+[1.143s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/package.dsv
+[1.149s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/ament_index/resource_index/packages/motor_driver
+[1.153s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/cmake/motor_driverConfig.cmake
+[1.159s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/cmake/motor_driverConfig-version.cmake
+[1.165s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/package.xml
+[1.174s] Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver

@@ -1,0 +1,602 @@
+[0.047s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.047s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x772c9225ea40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x772c922183a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x772c922183a0>>)
+[0.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.065s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi'
+[0.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_gui) by extension 'ignore'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_gui) by extension 'ignore_ament_install'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_gui) by extensions ['colcon_pkg']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_gui) by extension 'colcon_pkg'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_gui) by extensions ['colcon_meta']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_gui) by extension 'colcon_meta'
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_gui) by extensions ['ros']
+[0.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_gui) by extension 'ros'
+[0.074s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_gui' with type 'ros.ament_cmake' and name 'lidar_gui'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extension 'ignore'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extension 'ignore_ament_install'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extensions ['colcon_pkg']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extension 'colcon_pkg'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extensions ['colcon_meta']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extension 'colcon_meta'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extensions ['ros']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extension 'ros'
+[0.075s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_driver' with type 'ros.ament_cmake' and name 'motor_driver'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_bringup) by extension 'ignore'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_bringup) by extension 'ignore_ament_install'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_bringup) by extensions ['colcon_pkg']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_bringup) by extension 'colcon_pkg'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_bringup) by extensions ['colcon_meta']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_bringup) by extension 'colcon_meta'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_bringup) by extensions ['ros']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_bringup) by extension 'ros'
+[0.075s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sniffi_bringup' with type 'ros.ament_cmake' and name 'sniffi_bringup'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_description) by extensions ['ignore', 'ignore_ament_install']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_description) by extension 'ignore'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_description) by extension 'ignore_ament_install'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_description) by extensions ['colcon_pkg']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_description) by extension 'colcon_pkg'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_description) by extensions ['colcon_meta']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_description) by extension 'colcon_meta'
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_description) by extensions ['ros']
+[0.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_description) by extension 'ros'
+[0.076s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sniffi_description' with type 'ros.ament_cmake' and name 'sniffi_description'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_msgs) by extension 'ignore'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_msgs) by extension 'ignore_ament_install'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_msgs) by extensions ['colcon_pkg']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_msgs) by extension 'colcon_pkg'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_msgs) by extensions ['colcon_meta']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_msgs) by extension 'colcon_meta'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_msgs) by extensions ['ros']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_msgs) by extension 'ros'
+[0.076s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sniffi_msgs' with type 'ros.ament_cmake' and name 'sniffi_msgs'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_power) by extensions ['ignore', 'ignore_ament_install']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_power) by extension 'ignore'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_power) by extension 'ignore_ament_install'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_power) by extensions ['colcon_pkg']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_power) by extension 'colcon_pkg'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_power) by extensions ['colcon_meta']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_power) by extension 'colcon_meta'
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_power) by extensions ['ros']
+[0.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_power) by extension 'ros'
+[0.077s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sniffi_power' with type 'ros.ament_cmake' and name 'sniffi_power'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_safety) by extensions ['ignore', 'ignore_ament_install']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_safety) by extension 'ignore'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_safety) by extension 'ignore_ament_install'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_safety) by extensions ['colcon_pkg']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_safety) by extension 'colcon_pkg'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_safety) by extensions ['colcon_meta']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_safety) by extension 'colcon_meta'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_safety) by extensions ['ros']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_safety) by extension 'ros'
+[0.077s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sniffi_safety' with type 'ros.ament_cmake' and name 'sniffi_safety'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_sim) by extension 'ignore'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_sim) by extension 'ignore_ament_install'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_sim) by extensions ['colcon_pkg']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_sim) by extension 'colcon_pkg'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_sim) by extensions ['colcon_meta']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_sim) by extension 'colcon_meta'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_sim) by extensions ['ros']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/sniffi_sim) by extension 'ros'
+[0.077s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sniffi_sim' with type 'ros.ament_cmake' and name 'sniffi_sim'
+[0.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.089s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 329 installed packages in /opt/ros/humble
+[0.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.106s] Level 5:colcon.colcon_core.verb:set package 'lidar_gui' build argument 'cmake_args' from command line to 'None'
+[0.106s] Level 5:colcon.colcon_core.verb:set package 'lidar_gui' build argument 'cmake_target' from command line to 'None'
+[0.106s] Level 5:colcon.colcon_core.verb:set package 'lidar_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.106s] Level 5:colcon.colcon_core.verb:set package 'lidar_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[0.106s] Level 5:colcon.colcon_core.verb:set package 'lidar_gui' build argument 'cmake_clean_first' from command line to 'False'
+[0.106s] Level 5:colcon.colcon_core.verb:set package 'lidar_gui' build argument 'cmake_force_configure' from command line to 'False'
+[0.106s] Level 5:colcon.colcon_core.verb:set package 'lidar_gui' build argument 'ament_cmake_args' from command line to 'None'
+[0.106s] Level 5:colcon.colcon_core.verb:set package 'lidar_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[0.106s] Level 5:colcon.colcon_core.verb:set package 'lidar_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.106s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui', 'merge_install': False, 'path': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/lidar_gui', 'symlink_install': True, 'test_result_base': None}
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'cmake_args' from command line to 'None'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'cmake_target' from command line to 'None'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.107s] DEBUG:colcon.colcon_core.verb:Building package 'motor_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver', 'merge_install': False, 'path': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/motor_driver', 'symlink_install': True, 'test_result_base': None}
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_bringup' build argument 'cmake_args' from command line to 'None'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_bringup' build argument 'cmake_target' from command line to 'None'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.107s] DEBUG:colcon.colcon_core.verb:Building package 'sniffi_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup', 'merge_install': False, 'path': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_description' build argument 'cmake_args' from command line to 'None'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_description' build argument 'cmake_target' from command line to 'None'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.107s] DEBUG:colcon.colcon_core.verb:Building package 'sniffi_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description', 'merge_install': False, 'path': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_description', 'symlink_install': True, 'test_result_base': None}
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_msgs' build argument 'cmake_args' from command line to 'None'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_msgs' build argument 'cmake_target' from command line to 'None'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.107s] Level 5:colcon.colcon_core.verb:set package 'sniffi_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.107s] DEBUG:colcon.colcon_core.verb:Building package 'sniffi_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs', 'merge_install': False, 'path': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_sim' build argument 'cmake_args' from command line to 'None'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_sim' build argument 'cmake_target' from command line to 'None'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.108s] DEBUG:colcon.colcon_core.verb:Building package 'sniffi_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim', 'merge_install': False, 'path': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_sim', 'symlink_install': True, 'test_result_base': None}
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_power' build argument 'cmake_args' from command line to 'None'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_power' build argument 'cmake_target' from command line to 'None'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_power' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_power' build argument 'cmake_clean_cache' from command line to 'False'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_power' build argument 'cmake_clean_first' from command line to 'False'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_power' build argument 'cmake_force_configure' from command line to 'False'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_power' build argument 'ament_cmake_args' from command line to 'None'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_power' build argument 'catkin_cmake_args' from command line to 'None'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_power' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.108s] DEBUG:colcon.colcon_core.verb:Building package 'sniffi_power' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power', 'merge_install': False, 'path': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_power', 'symlink_install': True, 'test_result_base': None}
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_safety' build argument 'cmake_args' from command line to 'None'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_safety' build argument 'cmake_target' from command line to 'None'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_safety' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_safety' build argument 'cmake_clean_cache' from command line to 'False'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_safety' build argument 'cmake_clean_first' from command line to 'False'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_safety' build argument 'cmake_force_configure' from command line to 'False'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_safety' build argument 'ament_cmake_args' from command line to 'None'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_safety' build argument 'catkin_cmake_args' from command line to 'None'
+[0.108s] Level 5:colcon.colcon_core.verb:set package 'sniffi_safety' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.108s] DEBUG:colcon.colcon_core.verb:Building package 'sniffi_safety' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety', 'merge_install': False, 'path': '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_safety', 'symlink_install': True, 'test_result_base': None}
+[0.108s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.109s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.109s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_msgs' with build type 'ament_cmake'
+[0.109s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_msgs'
+[0.115s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.115s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.115s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.116s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/lidar_gui' with build type 'ament_cmake'
+[0.117s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/lidar_gui'
+[0.117s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.117s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.118s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/motor_driver' with build type 'ament_cmake'
+[0.118s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/motor_driver'
+[0.118s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.118s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.120s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_bringup' with build type 'ament_cmake'
+[0.120s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_bringup'
+[0.120s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.120s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.122s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_description' with build type 'ament_cmake'
+[0.122s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_description'
+[0.122s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.122s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.123s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_sim' with build type 'ament_cmake'
+[0.123s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_sim'
+[0.123s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.123s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs
+[0.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/lidar_gui -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui
+[0.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/motor_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver
+[0.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup
+[0.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description
+[0.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim
+[0.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup
+[0.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup -- -j24 -l24
+[0.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim
+[0.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_sim -- -j24 -l24
+[0.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description
+[0.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_description -- -j24 -l24
+[0.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup -- -j24 -l24
+[0.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup
+[0.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_sim -- -j24 -l24
+[0.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_sim
+[0.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_description -- -j24 -l24
+[0.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_description
+[0.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs
+[0.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_msgs -- -j24 -l24
+[0.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_msgs -- -j24 -l24
+[0.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_msgs
+[0.900s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sniffi_bringup)
+[0.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_bringup
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup' for CMake module files
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup' for CMake config files
+[0.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('sniffi_bringup', 'cmake_prefix_path')
+[0.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/hook/cmake_prefix_path.ps1'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/hook/cmake_prefix_path.dsv'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/hook/cmake_prefix_path.sh'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/bin'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/lib/pkgconfig/sniffi_bringup.pc'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/lib/python3.10/site-packages'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/bin'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/package.ps1'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/package.dsv'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/package.sh'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/package.bash'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/package.zsh'
+[0.912s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/colcon-core/packages/sniffi_bringup)
+[0.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sniffi_bringup)
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup' for CMake module files
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup' for CMake config files
+[0.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('sniffi_bringup', 'cmake_prefix_path')
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/hook/cmake_prefix_path.ps1'
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/hook/cmake_prefix_path.dsv'
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/hook/cmake_prefix_path.sh'
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/bin'
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/lib/pkgconfig/sniffi_bringup.pc'
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/lib/python3.10/site-packages'
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/bin'
+[0.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/package.ps1'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/package.dsv'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/package.sh'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/package.bash'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/sniffi_bringup/package.zsh'
+[0.917s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_bringup/share/colcon-core/packages/sniffi_bringup)
+[0.918s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sniffi_description)
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description' for CMake module files
+[0.919s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description' for CMake config files
+[0.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('sniffi_description', 'cmake_prefix_path')
+[0.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/hook/cmake_prefix_path.ps1'
+[0.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/hook/cmake_prefix_path.dsv'
+[0.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/hook/cmake_prefix_path.sh'
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/bin'
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/lib/pkgconfig/sniffi_description.pc'
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/lib/python3.10/site-packages'
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/bin'
+[0.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/package.ps1'
+[0.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/package.dsv'
+[0.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_description
+[0.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/package.sh'
+[0.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/package.bash'
+[0.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/package.zsh'
+[0.921s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/colcon-core/packages/sniffi_description)
+[0.922s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sniffi_description)
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description' for CMake module files
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description' for CMake config files
+[0.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('sniffi_description', 'cmake_prefix_path')
+[0.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/hook/cmake_prefix_path.ps1'
+[0.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/hook/cmake_prefix_path.dsv'
+[0.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/hook/cmake_prefix_path.sh'
+[0.923s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/bin'
+[0.923s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/lib/pkgconfig/sniffi_description.pc'
+[0.923s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/lib/python3.10/site-packages'
+[0.923s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/bin'
+[0.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/package.ps1'
+[0.924s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/package.dsv'
+[0.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/package.sh'
+[0.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/package.bash'
+[0.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/package.zsh'
+[0.924s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/colcon-core/packages/sniffi_description)
+[0.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sniffi_sim)
+[0.926s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim' for CMake module files
+[0.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_sim
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim' for CMake config files
+[0.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('sniffi_sim', 'cmake_prefix_path')
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/sniffi_sim/hook/cmake_prefix_path.ps1'
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/sniffi_sim/hook/cmake_prefix_path.dsv'
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/sniffi_sim/hook/cmake_prefix_path.sh'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/bin'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/lib/pkgconfig/sniffi_sim.pc'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/lib/python3.10/site-packages'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/bin'
+[0.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/sniffi_sim/package.ps1'
+[0.928s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/sniffi_sim/package.dsv'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/sniffi_sim/package.sh'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/sniffi_sim/package.bash'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/sniffi_sim/package.zsh'
+[0.929s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/colcon-core/packages/sniffi_sim)
+[0.929s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sniffi_sim)
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim' for CMake module files
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim' for CMake config files
+[0.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('sniffi_sim', 'cmake_prefix_path')
+[0.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/sniffi_sim/hook/cmake_prefix_path.ps1'
+[0.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/sniffi_sim/hook/cmake_prefix_path.dsv'
+[0.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/sniffi_sim/hook/cmake_prefix_path.sh'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/bin'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/lib/pkgconfig/sniffi_sim.pc'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/lib/python3.10/site-packages'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/bin'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/sniffi_sim/package.ps1'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/sniffi_sim/package.dsv'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/sniffi_sim/package.sh'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/sniffi_sim/package.bash'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/sniffi_sim/package.zsh'
+[0.932s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_sim/share/colcon-core/packages/sniffi_sim)
+[0.970s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sniffi_msgs)
+[0.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_msgs
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs' for CMake module files
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs' for CMake config files
+[0.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('sniffi_msgs', 'cmake_prefix_path')
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/sniffi_msgs/hook/cmake_prefix_path.ps1'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/sniffi_msgs/hook/cmake_prefix_path.dsv'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/sniffi_msgs/hook/cmake_prefix_path.sh'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/bin'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/lib/pkgconfig/sniffi_msgs.pc'
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/lib/python3.10/site-packages'
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/bin'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/sniffi_msgs/package.ps1'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/sniffi_msgs/package.dsv'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/sniffi_msgs/package.sh'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/sniffi_msgs/package.bash'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/sniffi_msgs/package.zsh'
+[0.973s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/colcon-core/packages/sniffi_msgs)
+[0.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sniffi_msgs)
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs' for CMake module files
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs' for CMake config files
+[0.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('sniffi_msgs', 'cmake_prefix_path')
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/sniffi_msgs/hook/cmake_prefix_path.ps1'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/sniffi_msgs/hook/cmake_prefix_path.dsv'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/sniffi_msgs/hook/cmake_prefix_path.sh'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/bin'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/lib/pkgconfig/sniffi_msgs.pc'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/lib/python3.10/site-packages'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/bin'
+[0.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/sniffi_msgs/package.ps1'
+[0.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/sniffi_msgs/package.dsv'
+[0.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/sniffi_msgs/package.sh'
+[0.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/sniffi_msgs/package.bash'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/sniffi_msgs/package.zsh'
+[0.976s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/colcon-core/packages/sniffi_msgs)
+[0.976s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_power' with build type 'ament_cmake'
+[0.976s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_power'
+[0.976s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.976s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.978s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_safety' with build type 'ament_cmake'
+[0.978s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_safety'
+[0.979s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.979s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_power -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power
+[0.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_safety -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety
+[1.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/motor_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver
+[1.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver -- -j24 -l24
+[1.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver -- -j24 -l24
+[1.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver
+[1.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/lidar_gui -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui
+[1.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui -- -j24 -l24
+[1.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui -- -j24 -l24
+[1.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui
+[1.290s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_driver)
+[1.290s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver' for CMake module files
+[1.290s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver' for CMake config files
+[1.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_driver', 'cmake_prefix_path')
+[1.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/hook/cmake_prefix_path.ps1'
+[1.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/hook/cmake_prefix_path.dsv'
+[1.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/hook/cmake_prefix_path.sh'
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/bin'
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/lib/pkgconfig/motor_driver.pc'
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/lib/python3.10/site-packages'
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/bin'
+[1.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/package.ps1'
+[1.292s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/package.dsv'
+[1.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/package.sh'
+[1.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/package.bash'
+[1.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/package.zsh'
+[1.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver
+[1.293s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/colcon-core/packages/motor_driver)
+[1.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_driver)
+[1.293s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver' for CMake module files
+[1.293s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver' for CMake config files
+[1.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_driver', 'cmake_prefix_path')
+[1.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/hook/cmake_prefix_path.ps1'
+[1.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/hook/cmake_prefix_path.dsv'
+[1.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/hook/cmake_prefix_path.sh'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/bin'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/lib/pkgconfig/motor_driver.pc'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/lib/python3.10/site-packages'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/bin'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/package.ps1'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/package.dsv'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/package.sh'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/package.bash'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/motor_driver/package.zsh'
+[1.296s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/motor_driver/share/colcon-core/packages/motor_driver)
+[1.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_gui)
+[1.339s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui' for CMake module files
+[1.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui' for CMake config files
+[1.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_gui', 'cmake_prefix_path')
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/hook/cmake_prefix_path.ps1'
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/hook/cmake_prefix_path.dsv'
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/hook/cmake_prefix_path.sh'
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/bin'
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/lib/pkgconfig/lidar_gui.pc'
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/lib/python3.10/site-packages'
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/bin'
+[1.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/package.ps1'
+[1.341s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/package.dsv'
+[1.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/package.sh'
+[1.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/package.bash'
+[1.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/package.zsh'
+[1.342s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/colcon-core/packages/lidar_gui)
+[1.342s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_gui)
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui' for CMake module files
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui' for CMake config files
+[1.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_gui', 'cmake_prefix_path')
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/hook/cmake_prefix_path.ps1'
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/hook/cmake_prefix_path.dsv'
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/hook/cmake_prefix_path.sh'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/bin'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/lib/pkgconfig/lidar_gui.pc'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/lib/python3.10/site-packages'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/bin'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/package.ps1'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/package.dsv'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/package.sh'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/package.bash'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/lidar_gui/package.zsh'
+[1.345s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/lidar_gui/share/colcon-core/packages/lidar_gui)
+[1.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power' returned '0': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_power -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power
+[1.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power -- -j24 -l24
+[1.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety' returned '0': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_safety -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety
+[1.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety -- -j24 -l24
+[1.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power' returned '0': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power -- -j24 -l24
+[1.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power
+[1.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety' returned '0': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety -- -j24 -l24
+[1.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety
+[1.920s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sniffi_power)
+[1.921s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power' for CMake module files
+[1.921s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power' for CMake config files
+[1.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('sniffi_power', 'cmake_prefix_path')
+[1.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/hook/cmake_prefix_path.ps1'
+[1.921s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/hook/cmake_prefix_path.dsv'
+[1.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/hook/cmake_prefix_path.sh'
+[1.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power' returned '0': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power
+[1.922s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/bin'
+[1.922s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/lib/pkgconfig/sniffi_power.pc'
+[1.922s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/lib/python3.10/site-packages'
+[1.922s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/bin'
+[1.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/package.ps1'
+[1.922s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/package.dsv'
+[1.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/package.sh'
+[1.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/package.bash'
+[1.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/package.zsh'
+[1.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/colcon-core/packages/sniffi_power)
+[1.924s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sniffi_power)
+[1.924s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power' for CMake module files
+[1.924s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power' for CMake config files
+[1.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('sniffi_power', 'cmake_prefix_path')
+[1.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/hook/cmake_prefix_path.ps1'
+[1.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/hook/cmake_prefix_path.dsv'
+[1.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/hook/cmake_prefix_path.sh'
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/bin'
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/lib/pkgconfig/sniffi_power.pc'
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/lib/python3.10/site-packages'
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/bin'
+[1.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/package.ps1'
+[1.925s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/package.dsv'
+[1.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/package.sh'
+[1.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/package.bash'
+[1.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/package.zsh'
+[1.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/colcon-core/packages/sniffi_power)
+[1.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sniffi_safety)
+[1.926s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety' for CMake module files
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety' for CMake config files
+[1.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('sniffi_safety', 'cmake_prefix_path')
+[1.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/hook/cmake_prefix_path.ps1'
+[1.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/hook/cmake_prefix_path.dsv'
+[1.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/hook/cmake_prefix_path.sh'
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/bin'
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/lib/pkgconfig/sniffi_safety.pc'
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/lib/python3.10/site-packages'
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/bin'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/package.ps1'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/package.dsv'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/package.sh'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/package.bash'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/package.zsh'
+[1.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety' returned '0': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety
+[1.929s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/colcon-core/packages/sniffi_safety)
+[1.929s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sniffi_safety)
+[1.929s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety' for CMake module files
+[1.929s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety' for CMake config files
+[1.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('sniffi_safety', 'cmake_prefix_path')
+[1.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/hook/cmake_prefix_path.ps1'
+[1.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/hook/cmake_prefix_path.dsv'
+[1.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/hook/cmake_prefix_path.sh'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/bin'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/lib/pkgconfig/sniffi_safety.pc'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/lib/python3.10/site-packages'
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/bin'
+[1.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/package.ps1'
+[1.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/package.dsv'
+[1.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/package.sh'
+[1.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/package.bash'
+[1.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/package.zsh'
+[1.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/colcon-core/packages/sniffi_safety)
+[1.931s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.931s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.931s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.932s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.943s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.944s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.944s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.952s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.952s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/local_setup.ps1'
+[1.953s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/_local_setup_util_ps1.py'
+[1.955s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/setup.ps1'
+[1.955s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/local_setup.sh'
+[1.956s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/_local_setup_util_sh.py'
+[1.956s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/setup.sh'
+[1.957s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/local_setup.bash'
+[1.957s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/setup.bash'
+[1.957s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/local_setup.zsh'
+[1.958s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/setup.zsh'

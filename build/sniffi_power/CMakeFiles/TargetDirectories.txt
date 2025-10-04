@@ -1,0 +1,10 @@
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power/CMakeFiles/uninstall.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power/CMakeFiles/sniffi_power_uninstall.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power/CMakeFiles/power_node.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power/CMakeFiles/test.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power/CMakeFiles/edit_cache.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power/CMakeFiles/rebuild_cache.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power/CMakeFiles/list_install_components.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power/CMakeFiles/install.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power/CMakeFiles/install/local.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power/CMakeFiles/install/strip.dir

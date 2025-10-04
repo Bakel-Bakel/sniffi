@@ -1,0 +1,6 @@
+rtabmap:
+  Rtabmap:
+    DetectionRate: 5.0
+    Grid/FromDepth: false   # lidar-only for this demo
+  RGBD:
+    ProximityBySpace: true

@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+90c731654edd20e2c3273a3cab1fabe3 CMakeFiles/sniffi_safety_uninstall

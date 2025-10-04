@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+449f77b94e12555c254c63cdc647ed0d CMakeFiles/sniffi_power_uninstall

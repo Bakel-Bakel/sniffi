@@ -1,0 +1,16 @@
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/lib/sniffi_safety/safety_node
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/ament_index/resource_index/package_run_dependencies/sniffi_safety
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/ament_index/resource_index/parent_prefix_path/sniffi_safety
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/environment/ament_prefix_path.sh
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/environment/ament_prefix_path.dsv
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/environment/path.sh
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/environment/path.dsv
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/local_setup.bash
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/local_setup.sh
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/local_setup.zsh
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/local_setup.dsv
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/package.dsv
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/ament_index/resource_index/packages/sniffi_safety
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/cmake/sniffi_safetyConfig.cmake
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/cmake/sniffi_safetyConfig-version.cmake
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/package.xml

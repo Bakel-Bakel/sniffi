@@ -1,0 +1,66 @@
+[0.006s] Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_power -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power
+[0.045s] -- The C compiler identification is GNU 11.4.0
+[0.089s] -- The CXX compiler identification is GNU 11.4.0
+[0.096s] -- Detecting C compiler ABI info
+[0.142s] -- Detecting C compiler ABI info - done
+[0.146s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.146s] -- Detecting C compile features
+[0.146s] -- Detecting C compile features - done
+[0.147s] -- Detecting CXX compiler ABI info
+[0.190s] -- Detecting CXX compiler ABI info - done
+[0.194s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.194s] -- Detecting CXX compile features
+[0.195s] -- Detecting CXX compile features - done
+[0.196s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.410s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.440s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.451s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.471s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.474s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.477s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.483s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.489s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.509s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.510s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.574s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.590s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.615s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.618s] -- Looking for pthread.h
+[0.678s] -- Looking for pthread.h - found
+[0.678s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.737s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.738s] -- Found Threads: TRUE  
+[0.767s] -- Found sniffi_msgs: 0.0.0 (/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs/share/sniffi_msgs/cmake)
+[0.767s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.810s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.810s] -- Configured cppcheck include dirs: 
+[0.810s] -- Configured cppcheck exclude dirs and/or files: 
+[0.810s] -- Added test 'lint_cmake' to check CMake code style
+[0.810s] -- Added test 'uncrustify' to check C / C++ code style
+[0.810s] -- Configured uncrustify additional arguments: 
+[0.811s] -- Added test 'xmllint' to check XML markup files
+[0.811s] -- Configuring done
+[0.813s] -- Generating done
+[0.814s] -- Build files have been written to: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power
+[0.821s] Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power' returned '0': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_power -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power
+[0.822s] Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power -- -j24 -l24
+[0.854s] Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power' returned '0': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power -- -j24 -l24
+[0.855s] Invoking command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power
+[0.859s] -- Install configuration: ""
+[0.859s] -- Execute custom install script
+[0.859s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/ament_index/resource_index/package_run_dependencies/sniffi_power
+[0.864s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/ament_index/resource_index/parent_prefix_path/sniffi_power
+[0.870s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/environment/ament_prefix_path.sh
+[0.876s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/environment/ament_prefix_path.dsv
+[0.881s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/environment/path.sh
+[0.886s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/environment/path.dsv
+[0.891s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/local_setup.bash
+[0.897s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/local_setup.sh
+[0.903s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/local_setup.zsh
+[0.909s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/local_setup.dsv
+[0.914s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/package.dsv
+[0.919s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/ament_index/resource_index/packages/sniffi_power
+[0.925s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/cmake/sniffi_powerConfig.cmake
+[0.932s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/cmake/sniffi_powerConfig-version.cmake
+[0.936s] -- Symlinking: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_power/share/sniffi_power/package.xml
+[0.944s] Invoked command in '/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power' returned '0': AMENT_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_power

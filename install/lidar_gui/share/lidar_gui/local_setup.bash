@@ -1,0 +1,1 @@
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui/ament_cmake_environment_hooks/local_setup.bash

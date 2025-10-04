@@ -1,0 +1,9 @@
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui/CMakeFiles/uninstall.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui/CMakeFiles/lidar_gui_uninstall.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui/CMakeFiles/test.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui/CMakeFiles/edit_cache.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui/CMakeFiles/rebuild_cache.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui/CMakeFiles/list_install_components.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui/CMakeFiles/install.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui/CMakeFiles/install/local.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/lidar_gui/CMakeFiles/install/strip.dir

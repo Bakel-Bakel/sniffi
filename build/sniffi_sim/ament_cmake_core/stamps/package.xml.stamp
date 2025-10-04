@@ -1,0 +1,16 @@
+<package format="3">
+  <name>sniffi_sim</name>
+  <version>0.0.1</version>
+  <description>Gazebo simulation for Sniffi navigation demo</description>
+  <maintainer email="you@example.com">You</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>sniffi_bringup</exec_depend>
+  <exec_depend>sniffi_navigation</exec_depend>
+  <exec_depend>sniffi_safety</exec_depend>
+  <exec_depend>sniffi_power</exec_depend>
+</package>

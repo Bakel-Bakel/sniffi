@@ -1,0 +1,9 @@
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver/CMakeFiles/uninstall.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver/CMakeFiles/motor_driver_uninstall.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver/CMakeFiles/test.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver/CMakeFiles/edit_cache.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver/CMakeFiles/rebuild_cache.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver/CMakeFiles/list_install_components.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver/CMakeFiles/install.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver/CMakeFiles/install/local.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/motor_driver/CMakeFiles/install/strip.dir

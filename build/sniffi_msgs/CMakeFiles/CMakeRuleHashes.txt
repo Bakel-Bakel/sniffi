@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+099a93ee435aefc4dac3d575c8a5b949 CMakeFiles/sniffi_msgs_uninstall

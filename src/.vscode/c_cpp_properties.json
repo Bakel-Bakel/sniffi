@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/lidar_gui/include/**",
+        "/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/motor_driver/include/**",
+        "/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_bringup/include/**",
+        "/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_description/include/**",
+        "/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_msgs/include/**",
+        "/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_power/include/**",
+        "/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/src/sniffi_safety/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

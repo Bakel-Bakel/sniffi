@@ -1,0 +1,10 @@
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety/CMakeFiles/uninstall.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety/CMakeFiles/sniffi_safety_uninstall.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety/CMakeFiles/safety_node.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety/CMakeFiles/test.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety/CMakeFiles/edit_cache.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety/CMakeFiles/rebuild_cache.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety/CMakeFiles/list_install_components.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety/CMakeFiles/install.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety/CMakeFiles/install/local.dir
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_safety/CMakeFiles/install/strip.dir

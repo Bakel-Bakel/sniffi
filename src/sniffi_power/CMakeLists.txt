@@ -11,6 +11,10 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sniffi_msgs REQUIRED)
 
+add_executable(power_node src/power_node.cpp)
+ament_target_dependencies(power_node rclcpp std_msgs sniffi_msgs)
+install(TARGETS power_node DESTINATION lib/${PROJECT_NAME})
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

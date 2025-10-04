@@ -1,0 +1,15 @@
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/ament_index/resource_index/package_run_dependencies/sniffi_description
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/ament_index/resource_index/parent_prefix_path/sniffi_description
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/environment/ament_prefix_path.sh
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/environment/ament_prefix_path.dsv
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/environment/path.sh
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/environment/path.dsv
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/local_setup.bash
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/local_setup.sh
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/local_setup.zsh
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/local_setup.dsv
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/package.dsv
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/ament_index/resource_index/packages/sniffi_description
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/cmake/sniffi_descriptionConfig.cmake
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/cmake/sniffi_descriptionConfig-version.cmake
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_description/share/sniffi_description/package.xml

@@ -1,0 +1,5 @@
+source;share/sniffi_power/local_setup.bash
+source;share/sniffi_power/local_setup.dsv
+source;share/sniffi_power/local_setup.ps1
+source;share/sniffi_power/local_setup.sh
+source;share/sniffi_power/local_setup.zsh

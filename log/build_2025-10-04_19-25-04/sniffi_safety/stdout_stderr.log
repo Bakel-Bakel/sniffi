@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target safety_node[0m
+[100%] Built target safety_node
+-- Install configuration: ""
+-- Up-to-date: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/lib/sniffi_safety/safety_node
+-- Up-to-date: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/ament_index/resource_index/package_run_dependencies/sniffi_safety
+-- Up-to-date: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/ament_index/resource_index/parent_prefix_path/sniffi_safety
+-- Up-to-date: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/environment/path.sh
+-- Up-to-date: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/environment/path.dsv
+-- Up-to-date: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/local_setup.bash
+-- Up-to-date: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/local_setup.sh
+-- Up-to-date: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/local_setup.zsh
+-- Up-to-date: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/local_setup.dsv
+-- Installing: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/package.dsv
+-- Up-to-date: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/ament_index/resource_index/packages/sniffi_safety
+-- Up-to-date: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/cmake/sniffi_safetyConfig.cmake
+-- Up-to-date: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/cmake/sniffi_safetyConfig-version.cmake
+-- Up-to-date: /home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/install/sniffi_safety/share/sniffi_safety/package.xml

@@ -1,0 +1,1 @@
+/home/lordcruise/Documents/upwork/sniffi/official_work/sniffi/build/sniffi_description/ament_cmake_environment_hooks/local_setup.zsh
